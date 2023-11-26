@@ -1,6 +1,21 @@
 # FRP Bypass Dengan ADB (Android Debug Bridge)
 
-Cara Menggunakan Perintah ADB untuk Melewati FRP
+Cara Menggunakan Perintah ADB untuk Bypass FRP
+
+Pastikan Developer Mode sudah aktif dan Debugging USB juga sudah aktif
+
+Mengaktifkan Developer Mode dan Debugging USB kamu Harus bisa mencari cara untuk masuk Ke pengaturan
+
+Cara paling sederhana yaitu dengan mencari cara untuk masuk kedalam Google Chrome
+
+Kemudian anda harus menginstall sebuah launcher (Terserah) mungkin Nova Launcher
+
+Kemudian setelah selesai install jangan tekan tombol home tapi buka launcher
+
+dan kemudian anda akan dibawa pada tampilan launcher kemudian buka pengaturan
+
+dan nyalakan Developer Mode dan Aktifkan Debugging USB (Cari cara di google kalau tidak tau)
+
 ## Link Download Android Platform Tools : [Klik Disini](https://developer.android.com/tools/releases/platform-tools?hl=id)
 ## Link Download Google Driver : [Klik Disini](https://developer.android.com/studio/run/win-usb?hl=id)
 1. Unduh file setup ADB Installer terbaru dari Internet.
