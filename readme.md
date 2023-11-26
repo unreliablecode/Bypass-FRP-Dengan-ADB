@@ -15,10 +15,14 @@ Cara Menggunakan Perintah ADB untuk Melewati FRP
 
 ```bash
 adb shell am start -n com.google.android.gsf.login/
+```
+```bash
 adb shell am start -n com.google.android.gsf.login.LoginActivity
+```
+```bash
 adb shell content insert --uri content://settings/secure --bind name:s:user_setup_complete --bind value:s:1
 ```
-#Untuk menghapus FRP pada Processor MTK (Mediatek) dan Snapdragon melalui perintah ADB:
+# Untuk menghapus FRP pada Processor MTK (Mediatek) dan Snapdragon melalui perintah ADB:
 ```bash
 adb shell content insert --uri content://settings/secure --bind name:s:user_setup_complete --bind value:s:1
 ```
