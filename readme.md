@@ -1,4 +1,4 @@
-# FRP Bypass Dengan ADB (Android Debugging Bridge)
+# FRP Bypass Dengan ADB (Android Debug Bridge)
 
 Cara Menggunakan Perintah ADB untuk Melewati FRP
 ## Link Download Android Platform Tools : [Klik Disini](https://developer.android.com/tools/releases/platform-tools?hl=id)
@@ -29,7 +29,7 @@ adb shell content insert --uri content://settings/secure --bind name:s:user_setu
 adb shell content insert --uri content://settings/secure --bind name:s:user_setup_complete --bind value:s:1
 ```
 
-# FRP Bypass Dengan ADB (Android Debugging Bridge) - Jika Command Tidak Dikenali
+# FRP Bypass Dengan ADB (Android Debug Bridge) - Jika Command Tidak Dikenali
 
 ### Untuk menghapus FRP pada perangkat Samsung melalui perintah ADB:
 
