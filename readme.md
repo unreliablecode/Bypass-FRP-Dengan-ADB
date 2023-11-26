@@ -1,6 +1,7 @@
 # FRP Bypass Dengan ADB (Android Debugging Bridge)
 
 Cara Menggunakan Perintah ADB untuk Melewati FRP
+Link Download Android Platform Tools : [Klik Disini](https://developer.android.com/tools/releases/platform-tools?hl=id)
 
 1. Unduh file setup ADB Installer terbaru dari Internet.
 
