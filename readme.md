@@ -1,4 +1,5 @@
-# ADB-FRP-Bypass
+# FRP Bypass Dengan ADB (Android Debugging Bridge)
+
 Cara Menggunakan Perintah ADB untuk Melewati FRP
 
 1. Unduh file setup ADB Installer terbaru dari Internet.
@@ -26,4 +27,24 @@ adb shell content insert --uri content://settings/secure --bind name:s:user_setu
 ```bash
 adb shell content insert --uri content://settings/secure --bind name:s:user_setup_complete --bind value:s:1
 ```
+
+# FRP Bypass Dengan ADB (Android Debugging Bridge) - Jika Command Tidak Dikenali
+
+### Untuk menghapus FRP pada perangkat Samsung melalui perintah ADB:
+
+```bash
+.\adb shell am start -n com.google.android.gsf.login/
+```
+```bash
+.\adb shell am start -n com.google.android.gsf.login.LoginActivity
+```
+```bash
+.\adb shell content insert --uri content://settings/secure --bind name:s:user_setup_complete --bind value:s:1
+```
+# Untuk menghapus FRP pada Processor MTK (Mediatek) dan Snapdragon melalui perintah ADB:
+```bash
+.\adb shell content insert --uri content://settings/secure --bind name:s:user_setup_complete --bind value:s:1
+```
+
+
 Setelah semua perintah dieksekusi, kunci FRP akan dihapus dari perangkat Anda. Itulah cara menggunakan ADB FRP bypass untuk menghapus kunci dari ponsel Anda.
