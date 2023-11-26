@@ -4,7 +4,7 @@ FRP (Factory Reset Protection) Bypass Android Dengan Metode ADB (Android Debug B
 
 I. Tujuan
 
-A. Mahasiswa Mampu Membypass FRP (Factory Reset Protection)
+A. Mahasiswa Mampu Membypass FRP (Factory Reset Protection) Bukan Dalam Hal Mencuri HP Melainkan untuk Hal Edukasi
 
 II. Dasar Teori
 
